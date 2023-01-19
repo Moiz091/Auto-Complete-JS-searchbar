@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Auto Complete - Vanilla Javascript library</title>
+	<meta name=”description" content="Simple, pure vanilla Javascript library progressively designed for speed, high
+		versatility, and seamless integration with a wide range of projects & systems.”>
+	<meta name="keywords"
+		content="autocomplete.js,autocomplete,simple autocomplete,pure vanilla javascript,vanilla js,javascript,js,library,speed,lightning fast,blazing fast,fast,search,suggestions,select,versatile,customizable,hackable,developer friendly,zero dependencies,lightweight,high integration,scalable,scalability,open source,github,javascript autocomplete,autocomplete javascript,autocompletejs,vanilla javascript library,easy to use autocomplete javascript library,fastest autocomplete javascript library,best autocomplete javascript library">
+	<meta name="subject" content="autoComplete Javascript Library">
+	<link rel="stylesheet" type="text/css" media="screen" href="./css/autoComplete.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="./css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+</head>
+
+<body>
+	<div class="container">
+		<header class="header">
+			<h1>
+				<a href="#">Auto Complete</a>
+				<P>Search</P>
+			</h1>
+		</header>
+		<div class="body" align="center">
+			<input id="autoComplete" type="text" dir="ltr" spellcheck=false autocorrect="off" autocomplete="off"
+				autocapitalize="off" maxlength="2048" tabindex="1">
+			<div class="mode">
+				<h4>mode</h4>
+				<div class="toggle">
+					<div class="toggler">Strict</div>
+				</div>
+			</div>
+			<div class="selection"></div>
+		</div>
+		<footer class="footer">
+			<div class="copyrights">
+				Copyright &copy; <span id="year">
+					<script>document.getElementById('year').innerHTML = new Date().getFullYear();</script>
+				</span>
+				 All Rights
+				Reserved
+			</div>
+		</footer>
+	</div>
+	<script src="./js/autoComplete.js"></script>
+	<script src="./js/index.js"></script>
+</body>
+
+</html>
